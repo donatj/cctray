@@ -42,12 +42,12 @@ type CCProjects struct {
 
 // CCProject represents a <Project> node
 type CCProject struct {
-	XMLName         xml.Name  `xml:"Project"`
-	Name            string    `xml:"name,attr"`
-	Activity        Activity  `xml:"activity,attr"`
-	LastBuildStatus Status    `xml:"lastBuildStatus,attr"`
-	LastBuildLabel  string    `xml:"lastBuildLabel,attr,omitempty"`
-	LastBuildTime   time.Time `xml:"lastBuildTime,attr"`
-	NextBuildTime   time.Time `xml:"nextBuildTime,attr,omitempty"`
-	WebURL          string    `xml:"webUrl,attr"`
+	XMLName         xml.Name   `xml:"Project"`
+	Name            string     `xml:"name,attr"`
+	Activity        Activity   `xml:"activity,attr"`
+	LastBuildStatus Status     `xml:"lastBuildStatus,attr"`
+	LastBuildLabel  string     `xml:"lastBuildLabel,attr,omitempty"`
+	LastBuildTime   time.Time  `xml:"lastBuildTime,attr"`
+	NextBuildTime   *time.Time `xml:"nextBuildTime,attr,omitempty"`
+	WebURL          string     `xml:"webUrl,attr"`
 }
