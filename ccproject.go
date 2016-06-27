@@ -3,7 +3,10 @@
 // The standard is currently defined at https://github.com/erikdoe/ccmenu/wiki/Multiple-Project-Summary-Reporting-Standard
 package ccproject
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"time"
+)
 
 // Activity is the type for the Activity response attribute
 type Activity string
@@ -39,12 +42,12 @@ type CCProjects struct {
 
 // CCProject represents a <Project> node
 type CCProject struct {
-	XMLName         xml.Name `xml:"Project"`
-	Name            string   `xml:"name,attr"`
-	Activity        Activity `xml:"activity,attr"`
-	LastBuildStatus Status   `xml:"lastBuildStatus,attr"`
-	LastBuildLabel  string   `xml:"lastBuildLabel,attr,omitempty"`
-	LastBuildTime   string   `xml:"lastBuildTime,attr"`
-	NextBuildTime   string   `xml:"nextBuildTime,attr,omitempty"`
-	WebURL          string   `xml:"webUrl,attr"`
+	XMLName         xml.Name  `xml:"Project"`
+	Name            string    `xml:"name,attr"`
+	Activity        Activity  `xml:"activity,attr"`
+	LastBuildStatus Status    `xml:"lastBuildStatus,attr"`
+	LastBuildLabel  string    `xml:"lastBuildLabel,attr,omitempty"`
+	LastBuildTime   time.Time `xml:"lastBuildTime,attr"`
+	NextBuildTime   time.Time `xml:"nextBuildTime,attr,omitempty"`
+	WebURL          string    `xml:"webUrl,attr"`
 }
