@@ -1,3 +1,6 @@
+// Package ccproject implements the Multiple Project Summary Reporting Standard.
+//
+// The standard is currently defined at https://github.com/erikdoe/ccmenu/wiki/Multiple-Project-Summary-Reporting-Standard
 package ccproject
 
 import "encoding/xml"
