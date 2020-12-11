@@ -1,6 +1,6 @@
-// Package cctray implements the Multiple Project Summary Reporting Standard.
+// Package cctray implements the CCTray v1 Specification Standard.
 //
-// The standard is currently defined at https://github.com/erikdoe/ccmenu/wiki/Multiple-Project-Summary-Reporting-Standard
+// The standard is currently defined at https://cctray.org/v1/
 package cctray
 
 import (
