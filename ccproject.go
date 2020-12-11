@@ -1,7 +1,7 @@
-// Package ccproject implements the Multiple Project Summary Reporting Standard.
+// Package cctray implements the Multiple Project Summary Reporting Standard.
 //
 // The standard is currently defined at https://github.com/erikdoe/ccmenu/wiki/Multiple-Project-Summary-Reporting-Standard
-package ccproject
+package cctray
 
 import (
 	"encoding/xml"

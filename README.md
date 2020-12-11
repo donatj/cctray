@@ -1,7 +1,7 @@
-# CCProject
+# CCTray
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/donatj/ccproject)](https://goreportcard.com/report/github.com/donatj/ccproject)
-[![GoDoc](https://godoc.org/github.com/donatj/ccproject?status.svg)](https://godoc.org/github.com/donatj/ccproject)
+[![Go Report Card](https://goreportcard.com/badge/github.com/donatj/cctray)](https://goreportcard.com/report/github.com/donatj/cctray)
+[![GoDoc](https://godoc.org/github.com/donatj/cctray?status.svg)](https://godoc.org/github.com/donatj/cctray)
 
 This is a simple Golang library implementing the XML structure for the [Multiple Project Summary Reporting Standard](https://github.com/erikdoe/ccmenu/wiki/Multiple-Project-Summary-Reporting-Standard).
 
