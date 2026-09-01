@@ -1,6 +1,5 @@
 # CCTray
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/donatj/cctray)](https://goreportcard.com/report/github.com/donatj/cctray)
 [![GoDoc](https://godoc.org/github.com/donatj/cctray?status.svg)](https://godoc.org/github.com/donatj/cctray)
 
 This is a simple Golang library implementing the XML structure for the [CCTray v1 Specification Standard](https://cctray.org/v1/).
